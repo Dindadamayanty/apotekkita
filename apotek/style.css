@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+
+
+body{
+    font-family:'Noto Sans';
+    width: 100%;
+    margin: 0;
+    background-color: #F1FAEE;
+}
+fieldset{
+    border: none;
+    background-color: #F1FAEE;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    max-width: 2300;
+}
+.tabel1{
+    /* border-color: #A8DADC; */
+    border-collapse: collapse; 
+    width:95%;
+    margin:50px auto;
+    border: 1px solid transparent;
+}
+ /* .tabel1 tr:nth-child(2){
+    background-color: #92ad88;
+}  */
+.tabel1 tr.submenu {
+    background-color:hsl(215, 50%, 23%) ;
+    height: 6vh;
+    box-shadow: 0px 5px 30px 5px rgba(0, 0, 0, .15);
+}
+.tabel1.submenu th{
+    width: 900px;
+}
+.tabel1.submenu th:nth-child(1) {
+    border-radius: 16px 0 0 16px;
+}
+.tabel1.submenu th:nth-child(3) {
+    border-radius: 0 16px 16px 0;
+}
+.tabel1.submenu th:hover{
+    background-color: #E63946;
+}
+
+.tabel1 th a {
+    text-decoration: none;
+    color: #F1FAEE;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.tabel1 form {
+    background-color: #1D3557;
+    border-radius: 16px;
+    padding: 2px;
+    width :90%;
+    margin: 50px auto;
+    
+}
+.tabel1 form table {
+    /* background-color: #b89396; */
+    margin: 0 auto;
+    width: 90%;
+    
+}
+.tabel1 form table tr td{
+    font-size: 20px;
+    width: 200px;    
+}
+.tabel1.inside {
+    border-collapse: separate;
+    border-spacing: 6.5rem;
+    width: 95%;
+    max-width: 900px;
+}
+.judulinput {
+    color: #F1FAEE;
+    position: relative;
+    
+}
+
+input[type="text"]{
+    background: #1D3557 ;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid #457B9D;
+    font-size: 2rem;
+    color: #F1FAEE;
+    position: absolute;
+    transition: all 0.3s ease;
+    
+}
+input[type="text"]:focus ~ label,
+input[type="text"]:valid ~ label{
+    transform: translateY(-35px);
+    font-size: 1.5rem;
+    color: #e46b75;
+
+}
+.judulinput label {
+    position: absolute;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-size: 2rem;
+}
+input[type="text"]:focus,
+input[type="text"]:valid{
+    border-bottom: 2px solid #F1FAEE;
+    transform: scaleX(1);
+}
+
+input[type="submit"]{
+    margin-top: 40; 
+    padding: 5px; 
+    border-radius: 36px; 
+    width: 40%; 
+    height: 5vh;
+    border-color: transparent; 
+    background-color:#A8DADC ; 
+    color: #1D3557;
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color:#E63946 ;
+    color: #F1FAEE;
+}
+h1 {
+    left: 30px;
+    color: #1D3557;
+    margin-left: 50px;
+    font-size: 35px;
+    position: relative;
+}
+h4 {
+    text-align:center;
+    font-size: 40px;
+    width: 100%;
+    color: #F1FAEE ;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+h3 {
+font-size: 35px;
+letter-spacing: 3px;
+position: relative;
+text-align: center;
+}
+
+img {
+    position: relative;
+    width: 350px;
+}
+.tabel2 {
+    border-color: #F1FAEE;
+    border-collapse: collapse; 
+    width:95%; 
+    margin:50px auto; 
+    background-color:#A8DADC;
+    font-size: 2rem;
+    color: #1D3557;
+}
+.tabel2 th {
+    background-color:#457B9D; 
+    color: #F1FAEE;
+    padding: 20px;
+}
+.tabel2 tr td{
+    padding: 1.8rem;
+}
